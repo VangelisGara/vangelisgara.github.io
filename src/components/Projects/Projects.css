@@ -1,0 +1,88 @@
+.lang{
+  display: inline;
+  font-size: 15px;
+  color: #0c1329;
+  opacity: 0.8;
+  margin:3px;
+}
+
+.lang:hover{
+  opacity: 0.6;
+}
+
+.langsused {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.gitsite {
+  text-align: center;
+}
+
+.card i {
+  color: #0c1329;
+  font-size: 2.0em;
+}
+
+.projectcardeck {
+  margin-top: 20px;
+}
+
+.projectcard {
+  max-width: 25vw;
+}
+
+.catitle {
+    margin-top: 40px;
+}
+
+.projectcard:hover {
+  cursor: default;
+  border: solid 1px #0c1329;
+  -moz-box-shadow: 5px 5px 0px #0c1329;
+  -webkit-box-shadow: 5px 5px 0px #0c1329;
+  box-shadow: 5px 5px 0px #0c1329;
+}
+
+.control {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.next {
+  font-size: 3em;
+  color:grey;
+}
+
+.next:hover {
+  cursor: pointer;
+  color: #0c1329;
+}
+
+.prev {
+  transform: rotate(180deg);
+  font-size: 3em;
+  color:grey;
+}
+
+.prev:hover {
+  cursor: pointer;
+  color: #0c1329;
+}
+
+@media (max-width:575px){
+  .langsused{
+    text-align: center;
+  }
+
+  .projectcard {
+    margin-top: 40px;
+    max-width: 75vw;
+  }
+
+  .control {
+      flex-direction: row;
+  }
+}

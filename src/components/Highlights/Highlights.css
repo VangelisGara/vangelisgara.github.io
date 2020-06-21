@@ -1,0 +1,9 @@
+.highli > li {
+  margin-left: -30px;
+}
+
+@media (max-width: 602px) {
+  .highli > li {
+    margin-bottom: 25px;
+  }
+}
